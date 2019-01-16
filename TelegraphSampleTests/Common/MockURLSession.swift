@@ -7,12 +7,12 @@ import Foundation
 
 final class MockURLSession: URLSessionType {
 
-    var capturedRequest: NSURLRequest?
+    var capturedRequest: URLRequest?
     var dataTaskCallCount: Int = 0
     var createdTasks: [MockURLSessionDataTask] = []
     var valuesToCompleteWith: (data: Data?, response: URLResponse?, error: Error?)?
 
-    func dataTask(with request: NSURLRequest, completionHandler: @escaping (Data?, URLResponse?, Error?) -> Void) -> URLSessionDataTaskProtocol {
+    func createDataTask(with request: URLRequest, completionHandler: @escaping (Data?, URLResponse?, Error?) -> Void) -> URLSessionDataTaskProtocol {
         capturedRequest = request
         dataTaskCallCount += 1
 
