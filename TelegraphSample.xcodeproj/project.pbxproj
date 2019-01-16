@@ -8,11 +8,35 @@
 
 /* Begin PBXBuildFile section */
 		3C0F437521EF6CED00304B45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0F437421EF6CED00304B45 /* AppDelegate.swift */; };
-		3C0F437721EF6CED00304B45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0F437621EF6CED00304B45 /* ViewController.swift */; };
 		3C0F437A21EF6CED00304B45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C0F437821EF6CED00304B45 /* Main.storyboard */; };
 		3C0F437C21EF6CF100304B45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C0F437B21EF6CF100304B45 /* Assets.xcassets */; };
 		3C0F437F21EF6CF100304B45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C0F437D21EF6CF100304B45 /* LaunchScreen.storyboard */; };
-		3C0F438A21EF6CF100304B45 /* TelegraphSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0F438921EF6CF100304B45 /* TelegraphSampleTests.swift */; };
+		3C0F439B21EF70B000304B45 /* ReviewListViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0F439A21EF70B000304B45 /* ReviewListViewType.swift */; };
+		3C0F439D21EF70DE00304B45 /* ReviewListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0F439C21EF70DE00304B45 /* ReviewListViewModel.swift */; };
+		3C0F439F21EF717E00304B45 /* ReviewListInteractorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0F439E21EF717E00304B45 /* ReviewListInteractorType.swift */; };
+		3C0F43A121EF71AD00304B45 /* ReviewListViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0F43A021EF71AD00304B45 /* ReviewListViewControllerTests.swift */; };
+		3C0F43A321EF723500304B45 /* ReviewListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0F43A221EF723500304B45 /* ReviewListViewController.swift */; };
+		3C0F43A521EF733300304B45 /* MockReviewListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0F43A421EF733300304B45 /* MockReviewListInteractor.swift */; };
+		3C0F43A721EF741400304B45 /* ReviewListInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0F43A621EF741400304B45 /* ReviewListInteractorTests.swift */; };
+		3C0F43A921EF75AD00304B45 /* MockReviewListEntityStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0F43A821EF75AD00304B45 /* MockReviewListEntityStore.swift */; };
+		3C0F43AB21EF75C900304B45 /* ReviewListEntityStoreType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0F43AA21EF75C900304B45 /* ReviewListEntityStoreType.swift */; };
+		3C0F43AD21EF765500304B45 /* ReviewListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0F43AC21EF765500304B45 /* ReviewListInteractor.swift */; };
+		3C0F43AF21EF78E400304B45 /* MockReviewListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0F43AE21EF78E400304B45 /* MockReviewListPresenter.swift */; };
+		3C0F43B121EF790B00304B45 /* ReviewListPresenterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0F43B021EF790B00304B45 /* ReviewListPresenterType.swift */; };
+		3C0F43B521EF7B8D00304B45 /* ResultType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0F43B421EF7B8D00304B45 /* ResultType.swift */; };
+		3C0F43B721EF7DD500304B45 /* ReviewListEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0F43B621EF7DD500304B45 /* ReviewListEntity.swift */; };
+		3C0F43B921EF7FD300304B45 /* ReviewListEntityStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0F43B821EF7FD300304B45 /* ReviewListEntityStoreTests.swift */; };
+		3C0F43BB21EF800900304B45 /* ReviewListEntityStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0F43BA21EF800900304B45 /* ReviewListEntityStore.swift */; };
+		3C0F43BE21EF822C00304B45 /* MockURLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0F43BD21EF822C00304B45 /* MockURLSession.swift */; };
+		3C0F43C121EF875F00304B45 /* validJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = 3C0F43C021EF875F00304B45 /* validJSON.json */; };
+		3C0F43C321EF8A1E00304B45 /* ReviewListResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0F43C221EF8A1E00304B45 /* ReviewListResponse.swift */; };
+		3C0F43C521EF8AFD00304B45 /* invalidJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = 3C0F43C421EF8AFD00304B45 /* invalidJSON.json */; };
+		3C0F43C821EF8C1400304B45 /* ReviewListResponseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0F43C721EF8C1400304B45 /* ReviewListResponseTests.swift */; };
+		3C0F43CA21EF91B300304B45 /* ReviewListAuthor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0F43C921EF91B300304B45 /* ReviewListAuthor.swift */; };
+		3C0F43CC21EF953D00304B45 /* ReviewListPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0F43CB21EF953D00304B45 /* ReviewListPresenterTests.swift */; };
+		3C0F43CE21EF957200304B45 /* ReviewListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0F43CD21EF957200304B45 /* ReviewListPresenter.swift */; };
+		3C0F43D021EF967F00304B45 /* MockReviewListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0F43CF21EF967F00304B45 /* MockReviewListView.swift */; };
+		3C0F43D221EF9F2000304B45 /* ReviewListTalbeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0F43D121EF9F2000304B45 /* ReviewListTalbeViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,14 +52,38 @@
 /* Begin PBXFileReference section */
 		3C0F437121EF6CED00304B45 /* TelegraphSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TelegraphSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C0F437421EF6CED00304B45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3C0F437621EF6CED00304B45 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3C0F437921EF6CED00304B45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3C0F437B21EF6CF100304B45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C0F437E21EF6CF100304B45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C0F438021EF6CF100304B45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C0F438521EF6CF100304B45 /* TelegraphSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TelegraphSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3C0F438921EF6CF100304B45 /* TelegraphSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelegraphSampleTests.swift; sourceTree = "<group>"; };
 		3C0F438B21EF6CF100304B45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C0F439A21EF70B000304B45 /* ReviewListViewType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewListViewType.swift; sourceTree = "<group>"; };
+		3C0F439C21EF70DE00304B45 /* ReviewListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewListViewModel.swift; sourceTree = "<group>"; };
+		3C0F439E21EF717E00304B45 /* ReviewListInteractorType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewListInteractorType.swift; sourceTree = "<group>"; };
+		3C0F43A021EF71AD00304B45 /* ReviewListViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewListViewControllerTests.swift; sourceTree = "<group>"; };
+		3C0F43A221EF723500304B45 /* ReviewListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewListViewController.swift; sourceTree = "<group>"; };
+		3C0F43A421EF733300304B45 /* MockReviewListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockReviewListInteractor.swift; sourceTree = "<group>"; };
+		3C0F43A621EF741400304B45 /* ReviewListInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewListInteractorTests.swift; sourceTree = "<group>"; };
+		3C0F43A821EF75AD00304B45 /* MockReviewListEntityStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockReviewListEntityStore.swift; sourceTree = "<group>"; };
+		3C0F43AA21EF75C900304B45 /* ReviewListEntityStoreType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewListEntityStoreType.swift; sourceTree = "<group>"; };
+		3C0F43AC21EF765500304B45 /* ReviewListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewListInteractor.swift; sourceTree = "<group>"; };
+		3C0F43AE21EF78E400304B45 /* MockReviewListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockReviewListPresenter.swift; sourceTree = "<group>"; };
+		3C0F43B021EF790B00304B45 /* ReviewListPresenterType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewListPresenterType.swift; sourceTree = "<group>"; };
+		3C0F43B421EF7B8D00304B45 /* ResultType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultType.swift; sourceTree = "<group>"; };
+		3C0F43B621EF7DD500304B45 /* ReviewListEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewListEntity.swift; sourceTree = "<group>"; };
+		3C0F43B821EF7FD300304B45 /* ReviewListEntityStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewListEntityStoreTests.swift; sourceTree = "<group>"; };
+		3C0F43BA21EF800900304B45 /* ReviewListEntityStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewListEntityStore.swift; sourceTree = "<group>"; };
+		3C0F43BD21EF822C00304B45 /* MockURLSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockURLSession.swift; sourceTree = "<group>"; };
+		3C0F43C021EF875F00304B45 /* validJSON.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = validJSON.json; sourceTree = "<group>"; };
+		3C0F43C221EF8A1E00304B45 /* ReviewListResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewListResponse.swift; sourceTree = "<group>"; };
+		3C0F43C421EF8AFD00304B45 /* invalidJSON.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = invalidJSON.json; sourceTree = "<group>"; };
+		3C0F43C721EF8C1400304B45 /* ReviewListResponseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewListResponseTests.swift; sourceTree = "<group>"; };
+		3C0F43C921EF91B300304B45 /* ReviewListAuthor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewListAuthor.swift; sourceTree = "<group>"; };
+		3C0F43CB21EF953D00304B45 /* ReviewListPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewListPresenterTests.swift; sourceTree = "<group>"; };
+		3C0F43CD21EF957200304B45 /* ReviewListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewListPresenter.swift; sourceTree = "<group>"; };
+		3C0F43CF21EF967F00304B45 /* MockReviewListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockReviewListView.swift; sourceTree = "<group>"; };
+		3C0F43D121EF9F2000304B45 /* ReviewListTalbeViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewListTalbeViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +125,9 @@
 		3C0F437321EF6CED00304B45 /* TelegraphSample */ = {
 			isa = PBXGroup;
 			children = (
+				3C0F43B321EF7B8100304B45 /* Common */,
+				3C0F439421EF701C00304B45 /* ReviewList */,
 				3C0F437421EF6CED00304B45 /* AppDelegate.swift */,
-				3C0F437621EF6CED00304B45 /* ViewController.swift */,
 				3C0F437821EF6CED00304B45 /* Main.storyboard */,
 				3C0F437B21EF6CF100304B45 /* Assets.xcassets */,
 				3C0F437D21EF6CF100304B45 /* LaunchScreen.storyboard */,
@@ -90,10 +139,105 @@
 		3C0F438821EF6CF100304B45 /* TelegraphSampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				3C0F438921EF6CF100304B45 /* TelegraphSampleTests.swift */,
+				3C0F43BF21EF872F00304B45 /* MockData */,
+				3C0F43BC21EF821800304B45 /* Common */,
 				3C0F438B21EF6CF100304B45 /* Info.plist */,
 			);
 			path = TelegraphSampleTests;
+			sourceTree = "<group>";
+		};
+		3C0F439421EF701C00304B45 /* ReviewList */ = {
+			isa = PBXGroup;
+			children = (
+				3C0F439521EF703100304B45 /* View */,
+				3C0F439621EF705000304B45 /* Interactor */,
+				3C0F439721EF705900304B45 /* Presenter */,
+				3C0F439821EF706000304B45 /* Entity */,
+				3C0F439921EF707900304B45 /* Routing */,
+			);
+			path = ReviewList;
+			sourceTree = "<group>";
+		};
+		3C0F439521EF703100304B45 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3C0F439A21EF70B000304B45 /* ReviewListViewType.swift */,
+				3C0F439C21EF70DE00304B45 /* ReviewListViewModel.swift */,
+				3C0F43A021EF71AD00304B45 /* ReviewListViewControllerTests.swift */,
+				3C0F43A221EF723500304B45 /* ReviewListViewController.swift */,
+				3C0F43CF21EF967F00304B45 /* MockReviewListView.swift */,
+				3C0F43D121EF9F2000304B45 /* ReviewListTalbeViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3C0F439621EF705000304B45 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				3C0F439E21EF717E00304B45 /* ReviewListInteractorType.swift */,
+				3C0F43A421EF733300304B45 /* MockReviewListInteractor.swift */,
+				3C0F43A621EF741400304B45 /* ReviewListInteractorTests.swift */,
+				3C0F43AC21EF765500304B45 /* ReviewListInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		3C0F439721EF705900304B45 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				3C0F43AE21EF78E400304B45 /* MockReviewListPresenter.swift */,
+				3C0F43B021EF790B00304B45 /* ReviewListPresenterType.swift */,
+				3C0F43CB21EF953D00304B45 /* ReviewListPresenterTests.swift */,
+				3C0F43CD21EF957200304B45 /* ReviewListPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		3C0F439821EF706000304B45 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				3C0F43A821EF75AD00304B45 /* MockReviewListEntityStore.swift */,
+				3C0F43AA21EF75C900304B45 /* ReviewListEntityStoreType.swift */,
+				3C0F43B621EF7DD500304B45 /* ReviewListEntity.swift */,
+				3C0F43B821EF7FD300304B45 /* ReviewListEntityStoreTests.swift */,
+				3C0F43BA21EF800900304B45 /* ReviewListEntityStore.swift */,
+				3C0F43C221EF8A1E00304B45 /* ReviewListResponse.swift */,
+				3C0F43C721EF8C1400304B45 /* ReviewListResponseTests.swift */,
+				3C0F43C921EF91B300304B45 /* ReviewListAuthor.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		3C0F439921EF707900304B45 /* Routing */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Routing;
+			sourceTree = "<group>";
+		};
+		3C0F43B321EF7B8100304B45 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				3C0F43B421EF7B8D00304B45 /* ResultType.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		3C0F43BC21EF821800304B45 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				3C0F43BD21EF822C00304B45 /* MockURLSession.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		3C0F43BF21EF872F00304B45 /* MockData */ = {
+			isa = PBXGroup;
+			children = (
+				3C0F43C421EF8AFD00304B45 /* invalidJSON.json */,
+				3C0F43C021EF875F00304B45 /* validJSON.json */,
+			);
+			path = MockData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,6 +331,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C0F43C121EF875F00304B45 /* validJSON.json in Resources */,
+				3C0F43C521EF8AFD00304B45 /* invalidJSON.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,7 +343,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C0F437721EF6CED00304B45 /* ViewController.swift in Sources */,
+				3C0F43D221EF9F2000304B45 /* ReviewListTalbeViewCell.swift in Sources */,
+				3C0F43B521EF7B8D00304B45 /* ResultType.swift in Sources */,
+				3C0F43B721EF7DD500304B45 /* ReviewListEntity.swift in Sources */,
+				3C0F43CA21EF91B300304B45 /* ReviewListAuthor.swift in Sources */,
+				3C0F43A321EF723500304B45 /* ReviewListViewController.swift in Sources */,
+				3C0F43C321EF8A1E00304B45 /* ReviewListResponse.swift in Sources */,
+				3C0F43AB21EF75C900304B45 /* ReviewListEntityStoreType.swift in Sources */,
+				3C0F439F21EF717E00304B45 /* ReviewListInteractorType.swift in Sources */,
+				3C0F439B21EF70B000304B45 /* ReviewListViewType.swift in Sources */,
+				3C0F43BB21EF800900304B45 /* ReviewListEntityStore.swift in Sources */,
+				3C0F43B121EF790B00304B45 /* ReviewListPresenterType.swift in Sources */,
+				3C0F439D21EF70DE00304B45 /* ReviewListViewModel.swift in Sources */,
+				3C0F43CE21EF957200304B45 /* ReviewListPresenter.swift in Sources */,
+				3C0F43AD21EF765500304B45 /* ReviewListInteractor.swift in Sources */,
 				3C0F437521EF6CED00304B45 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -206,7 +365,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C0F438A21EF6CF100304B45 /* TelegraphSampleTests.swift in Sources */,
+				3C0F43D021EF967F00304B45 /* MockReviewListView.swift in Sources */,
+				3C0F43C821EF8C1400304B45 /* ReviewListResponseTests.swift in Sources */,
+				3C0F43B921EF7FD300304B45 /* ReviewListEntityStoreTests.swift in Sources */,
+				3C0F43A121EF71AD00304B45 /* ReviewListViewControllerTests.swift in Sources */,
+				3C0F43A921EF75AD00304B45 /* MockReviewListEntityStore.swift in Sources */,
+				3C0F43A521EF733300304B45 /* MockReviewListInteractor.swift in Sources */,
+				3C0F43BE21EF822C00304B45 /* MockURLSession.swift in Sources */,
+				3C0F43AF21EF78E400304B45 /* MockReviewListPresenter.swift in Sources */,
+				3C0F43CC21EF953D00304B45 /* ReviewListPresenterTests.swift in Sources */,
+				3C0F43A721EF741400304B45 /* ReviewListInteractorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

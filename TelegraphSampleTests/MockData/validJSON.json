@@ -1,0 +1,311 @@
+{
+    "collection": [
+        {
+            "id": 1,
+            "website-url": "http://www.telegraph.co.uk/film/the-revenant/",
+            "headline": "The revenant",
+            "description": "Leo's beautiful endurance test",
+            "article-body": "",
+            "ratings": 4,
+            "picture-url": "http://www.telegraph.co.uk/content/dam/film/the revenant/leo-xlarge.jpg",
+            "video-url": "",
+            "actors": [
+                "Leonardo DiCaprio",
+                "Tom Hardy",
+                "Domhnall Gleeson",
+                "Will Poulter"
+            ],
+            "director": "Alejandro G. IÃ±Ã¡rritu",
+            "genre": [
+                "Action",
+                "Drama"
+            ],
+            "synopsis": "In the 1820s, a frontiersman, Hugh Glass, sets out on a path of vengeance against those who left him for dead after a bear mauling",
+            "release-date": "15-01-2015",
+            "duration": "156 mins",
+            "published-date": "14 January 2016 â€¢ 12:00pm",
+            "author": {
+                "name": "Robbie Collin",
+                "headshot": "http://www.telegraph.co.uk/content/dam/film/team/robbie-collin-byline0-USE-small.jpg",
+                "twitter": "@robbiereviews"
+            }
+        },
+        {
+            "id": 2,
+            "website-url": "http://www.telegraph.co.uk/film/creed/",
+            "headline": "Creed",
+            "description": "Stallone at his best",
+            "article-body": "",
+            "ratings": 4,
+            "picture-url": "http://www.telegraph.co.uk/content/dam/film/creed/creed-jordan-stallone-xlarge.jpg",
+            "video-url": "",
+            "actors": [
+                "Michael B Jordan",
+                "Sylvester Stallone",
+                "Tessa Thompson",
+                "Phylicia Rashad"
+            ],
+            "director": "Ryan Coogler",
+            "genre": [
+                "Sports",
+                "Drama"
+            ],
+            "synopsis": "Adonis Creed, the son of Rocky's old rival Apollo Creed, travels to Philadelphia, where he requests that Rocky train him",
+            "release-date": "15-01-2016",
+            "duration": "132 mins",
+            "published-date": "14 January 2016 â€¢ 1:00pm",
+            "author": {
+                "name": "Tim Robey",
+                "headshot": "http://www.telegraph.co.uk/content/dam/film/team/tim-robey-small.jpg",
+                "twitter": "@trim_obey"
+            }
+        },
+        {
+            "id": 3,
+            "website-url": "http://www.telegraph.co.uk/film/room/",
+            "headline": "Room",
+            "description": "Brie Larson is impeccable",
+            "article-body": "",
+            "ratings": 3,
+            "picture-url": "http://www.telegraph.co.uk/content/dam/film/Room/room1-xlarge.jpg",
+            "video-url": "",
+            "actors": [
+                "Brie Larson",
+                "Jacob Tremblay",
+                "Joan Allen",
+                "Sean Bridgers",
+                "Tom McCamus",
+                "William H. Macy"
+            ],
+            "director": "Lenny Abrahamson",
+            "genre": [
+                "Drama"
+            ],
+            "synopsis": "A mother forced to raise her child in a single room in an adaptation of the best-selling novel by Emma Donoghue",
+            "release-date": "29-01-2015",
+            "duration": "118 mins",
+            "published-date": "14 January 2016 â€¢ 5:15pm",
+            "author": {
+                "name": "Tim Robey",
+                "headshot": "http://www.telegraph.co.uk/content/dam/film/team/tim-robey-small.jpg",
+                "twitter": "@trim_obey"
+            }
+        },
+        {
+            "id": 4,
+            "website-url": "http://www.telegraph.co.uk/film/star-wars-the-force-awakens/",
+            "headline": "Star Wars: The force awakens",
+            "description": "The magic is back",
+            "article-body": "",
+            "ratings": 5,
+            "picture-url": "http://www.telegraph.co.uk/content/dam/film/starwarsforceawakens/forceawakens20-xlarge.jpg",
+            "video-url": "",
+            "actors": [
+                "Daisy Ridley",
+                "John Boyega",
+                "Adam Driver",
+                "Harrison Ford",
+                "Peter Mayhew",
+                "Oscar Isaac",
+                "Domhnall Gleeson",
+                "Andy Serkis",
+                "Lupita Nyongâ€™o",
+                "Gwendoline Christie",
+                "Carrie Fisher",
+                "Mark Hamill"
+            ],
+            "director": "AJJ Abrams",
+            "genre": [
+                "Sci-fi",
+                "Action"
+            ],
+            "synopsis": "Thirty years after the events of The Return of the Jedi, the Empire once again tries to gain control of the galaxy",
+            "release-date": "17-12-2015",
+            "duration": "136 mins",
+            "published-date": "18 December 2015 â€¢ 10:30am",
+            "author": {
+                "name": "Robbie Collin",
+                "headshot": "http://www.telegraph.co.uk/content/dam/film/team/robbie-collin-byline0-USE-small.jpg",
+                "twitter": "@robbiereviews"
+            }
+        },
+        {
+            "id": 5,
+            "website-url": "http://www.telegraph.co.uk/film/hateful-eight/",
+            "headline": "The Hateful Eight",
+            "description": "Only Tarantino can do this",
+            "article-body": "",
+            "ratings": 5,
+            "picture-url": "http://www.telegraph.co.uk/content/dam/film/hatefuleight/tim-roth-walton-goggins-hateful-eight-xlarge.jpg",
+            "video-url": "",
+            "actors": [
+                "Kurt Russell",
+                "Samuel L Jackson",
+                "Tim Roth",
+                "Michael Madsen",
+                "Jennifer Jason Leigh",
+                "Walton Goggins"
+            ],
+            "director": "Quentin Tarantino",
+            "genre": [
+                "Western"
+            ],
+            "synopsis": "In post-Civil War Wyoming, bounty hunters try to find shelter during a blizzard but get involved in a plot of betrayal and deception. Will they survive?",
+            "release-date": "08-01-2016",
+            "duration": "187 mins",
+            "published-date": "7 January 2016 â€¢ 1:00pm",
+            "author": {
+                "name": "Robbie Collin",
+                "headshot": "http://www.telegraph.co.uk/content/dam/film/team/robbie-collin-byline0-USE-small.jpg",
+                "twitter": "@robbiereviews"
+            }
+        },
+        {
+            "id": 6,
+            "website-url": "http://www.telegraph.co.uk/film/joy/",
+            "headline": "Joy",
+            "description": "Jennifer Lawrence's brilliant fairy tale",
+            "article-body": "",
+            "ratings": 5,
+            "picture-url": "http://www.telegraph.co.uk/content/dam/film/Joy/joy-jennifer-lawrence-hi-res-xlarge.jpg",
+            "video-url": "",
+            "actors": [
+                "Jennifer Lawrence",
+                "Bradley Cooper",
+                "Robert De Niro",
+                "Virginia Madsen",
+                "Diane Ladd",
+                "Isabella Rossellini",
+                "Elisabeth RÃ¶hm",
+                "Ã‰dgar RamÃ­rez",
+                "Dascha Polanko"
+            ],
+            "director": "David O Russell",
+            "genre": [
+                "Drama"
+            ],
+            "synopsis": "Inspired by a true story, the film captures the journey of a woman who is fiercely determined to keep her eccentric and dysfunctional family together in the face of all odds",
+            "release-date": "01-01-2016",
+            "duration": "124 mins",
+            "published-date": "31 December 2015 â€¢ 10:00am",
+            "author": {
+                "name": "Robbie Collin",
+                "headshot": "http://www.telegraph.co.uk/content/dam/film/team/robbie-collin-byline0-USE-small.jpg",
+                "twitter": "@robbiereviews"
+            }
+        },
+        {
+            "id": 7,
+            "website-url": "http://www.telegraph.co.uk/film/the-danish-girl/",
+            "headline": "The Danish Girl",
+            "description": "A beautiful, humane biopic",
+            "article-body": "",
+            "ratings": 4,
+            "picture-url": "http://www.telegraph.co.uk/content/dam/film/the revenant/leo-xlarge.jpg",
+            "video-url": "",
+            "actors": [
+                "Eddie Redmayne",
+                "Alicia Vikander",
+                "Matthias Schoenaerts",
+                "Ben Whishaw",
+                "Amber Heard",
+                "Sebastian Koch"
+            ],
+            "director": "Tom Hooper",
+            "genre": [
+                "Drama"
+            ],
+            "synopsis": "The life of Lili Elbe, one of the first known recipients of sexual reassignment surgery",
+            "release-date": "01-01-2016",
+            "duration": "120 mins",
+            "published-date": "31 December 2015 â€¢ 10:30am",
+            "author": {
+                "name": "Robbie Collin",
+                "headshot": "http://www.telegraph.co.uk/content/dam/film/team/robbie-collin-byline0-USE-small.jpg",
+                "twitter": "@robbiereviews"
+            }
+        },
+        {
+            "id": 8,
+            "website-url": "http://www.telegraph.co.uk/film/amy/",
+            "headline": "Amy",
+            "description": "Piercingly sad",
+            "article-body": "",
+            "ratings": 4,
+            "picture-url": "http://www.telegraph.co.uk/content/dam/film/CannesFestivalPics/amy_winehouse1-xlarge.jpg",
+            "video-url": "",
+            "actors": [
+                "Amy Winehouse",
+                "Mitch Winehouse",
+                "Janis Winehouse",
+                "Blake Fielder-Civil (archive footage)"
+            ],
+            "director": "Asif Kapadia",
+            "genre": [
+                "Documentary"
+            ],
+            "synopsis": "A documentary on the late singer/songwriter, who died of alcohol poisoning in 2011.",
+            "release-date": "03-07-2015",
+            "duration": "90 mins",
+            "published-date": "8 January 2016 â€¢ 8:28am",
+            "author": {
+                "name": "Robbie Collin",
+                "headshot": "http://www.telegraph.co.uk/content/dam/film/team/robbie-collin-byline0-USE-small.jpg",
+                "twitter": "@robbiereviews"
+            }
+        },
+        {
+            "id": 9,
+            "website-url": "http://www.telegraph.co.uk/film/the-big-short/",
+            "headline": "The Big Short",
+            "description": "A very serious comedy indeed",
+            "article-body": "",
+            "ratings": 4,
+            "picture-url": "http://www.telegraph.co.uk/content/dam/film/bigshort-xlarge.jpg",
+            "video-url": "",
+            "actors": [
+                "Ryan Gosling",
+                "Christian Bale",
+                "Steve Carell",
+                "Brad Pitt",
+                "Rafe Spall",
+                "Marisa Tomei"
+            ],
+            "director": "Adam McKay",
+            "genre": [
+                "Drama"
+            ],
+            "synopsis": "A group of men make millions from a global financial crisis. Based on Michael Lewis's book of the same name.",
+            "release-date": "22-01-2016",
+            "duration": "130 mins",
+            "published-date": "7 January 2016 â€¢ 4:31pm",
+            "author": {
+                "name": "Robbie Collin",
+                "headshot": "http://www.telegraph.co.uk/content/dam/film/team/robbie-collin-byline0-USE-small.jpg",
+                "twitter": "@robbiereviews"
+            }
+        },
+        {
+            "id": 10,
+            "website-url": "http://www.telegraph.co.uk/film/a-war/",
+            "headline": "A War",
+            "description": "Brave and challenging",
+            "article-body": "",
+            "ratings": 4,
+            "picture-url": "http://www.telegraph.co.uk/content/dam/film/awar2-xlarge.jpg",
+            "video-url": "",
+            "actors": ["Pilou AsbÃ¦k", "Tuva Novotny", "Dar Salim", "SÃ¸ren Malling", "Charlotte Munck", "Dulfi Al-Jabouri", "Alex HÃ¸gh Andersen", "Phillip Sem DambÃ¦k", "Jakob FrÃ¸lund"],
+            "director": "Tobias Lindholm",
+            "genre": ["Drama"],
+            "synopsis": "A soldier is forced to make difficult choices in Afghanistan, then returns home to face the consequences",
+            "release-date": "08-01-2016",
+            "duration": "115 mins",
+            "published-date": "7 January 2016 â€¢ 12:13pm",
+            "author": {
+                "name": "Tim Robey",
+                "headshot": "http://www.telegraph.co.uk/content/dam/film/team/tim-robey-small.jpg",
+                "twitter": "@trim_obey"
+            }
+        }
+    ]
+}
